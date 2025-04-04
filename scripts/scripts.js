@@ -114,7 +114,7 @@ function scrollFunction() {
 }
 
 // changing words in the about me section
-var me = ["programmer", "bug hunter", "fullstack developer", "software tester", "IT help desk agent"];
+var me = ["bug hunter", "ethical hacker", "Analytical chemist"];
 var index = 0;
 
 setInterval(function() {
