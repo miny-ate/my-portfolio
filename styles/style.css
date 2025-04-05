@@ -322,12 +322,12 @@ h1 {
 #secondarySchool,
 #university {
   border: 3px groove #003285;
-  box-shadow: 5px 5px 10px #060047;
+  box-shadow: 5px 5px 10px #00FF9C;
 }
 #primarySchool:hover,
 #secondarySchool:hover,
 #university:hover {
-  box-shadow: 5px 5px 60px #060047;
+  box-shadow: 5px 5px 60px #00FF9C;
 }
 #university a {
   color: #00A9FF;
@@ -411,8 +411,8 @@ h1 {
 .my-portfolio{
   border: 3px solid #FFF085;
   border-radius: 15px;
-  background-color: #FCB454;
-  box-shadow: 5px 5px 10px #FF9B17;
+  background-color: #B03052;
+  box-shadow: 5px 5px 10px #00FF9C;
   padding: 10px;
   margin: 15px;
   /*font-family: 'Trebuchet MS', sans-serif;*/
@@ -426,7 +426,7 @@ h1 {
 }
 .hef-layout:hover,
 .my-portfolio:hover {
-  box-shadow: 5px 5px 60px #FF9B17;
+  box-shadow: 5px 5px 60px #00FF9C;
 }
 
 
@@ -450,7 +450,7 @@ h1 {
 }
 #getInTouchForm {
   border: 3px groove #C9B194;
-  box-shadow: 5px 5px 20px #706D54;
+  box-shadow: 5px 5px 20px #00FF9C;
   margin-left: 20%;
   margin-right: 20%;
 }
