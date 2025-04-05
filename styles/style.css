@@ -1,5 +1,5 @@
 html {
-  background-color: #ced4da;
+  background-color: #0a192f;
 }
 
 body {
@@ -49,7 +49,7 @@ header {
 
 .top-nav a {
   float: left;
-  color: #c369ed;
+  color: #f8fafc;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,14 +62,14 @@ header {
 }
 
 .top-right a {
-  background-color: #ced4da;
+  background-color: #0a192f;
   margin: 5px;
   border-radius: 20px;
   padding-top: 5px;
 }
 
 .top-right a:hover {
-  background-color: #8a95aa;
+  background-color: #0a192f;
   color: #00A9FF;
 }
 .top-right a:focus {
@@ -179,7 +179,7 @@ h1 {
 /* hard-skills part */
 
 .skills h2 {
-  background-color: #FFF7D1;
+  background-color: #0a192f;
   text-align: center;
   border: 3px solid #27391C;
   border-radius: 20px;
@@ -201,30 +201,22 @@ h1 {
   margin-bottom: 0;
 }
 
-.hard-skills {
+.security skills {
   border-radius: 10px;
   padding: 20px;
   display: flex;
   column-count: 2;
 }
-.skills h4 {
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  font-size: 20px;
-}
-#hardSkillsList,
-#techStackList {
-  font-size: 14px;
-}
-.technical-skills {
+
+.tech skills {
   display: inline;
 }
-.technical-skills h5 {
+.tech skills h5 {
   text-align: center;
   font-family: 'Courier New', monospace;
   font-size: 20px;
 }
-.technical-skills ul {
+.tech skills ul {
   list-style-type: none;
   margin: auto;
   margin-top: 10px;
@@ -232,7 +224,7 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
 }
-.technical-skills li {
+.tech skills li {
   border-radius: 20px;
   background-color: #c9a6c3;
   margin: auto;
@@ -241,7 +233,7 @@ h1 {
   box-shadow: 5px 5px 50px #A66CFF;
 }
 
-.technical-skills img {
+.tech skills img {
   max-width: 250px;
   height: auto;
   display: block;
@@ -283,36 +275,19 @@ h1 {
   display: block;
   border-radius: 60px;
 }
-/* hard-skills part */
 
-/* soft-skills part */
-
-.soft-skills h4 {
+.tech skills h4 {
   text-align: center;
   font-family: 'Courier New', monospace;
   font-size: 20px;
 }
-.soft-skills {
+.tech skills {
   border-radius: 10px;
   padding: 20px;
   display: flex;
   column-count: 2;
   column-gap: 20%;
 }
-
-.weakness,
-.strengths {
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.strengths li,
-.weakness li {
-  margin: 8px;
-}
-
-/* soft-skills part */
 
 /* education part */
 .education h3,
@@ -444,14 +419,12 @@ h1 {
   font-size: 17px;
 }
 .hef-layout h5,
-.cpp-basics h5,
 .my-portfolio h5 {
   text-align: center;
   font-family: 'Courier New', monospace;
   font-size: 22px;
 }
 .hef-layout:hover,
-.cpp-basics:hover,
 .my-portfolio:hover {
   box-shadow: 5px 5px 60px #FF9B17;
 }
@@ -708,7 +681,7 @@ footer p {
 }
 
 @media screen and (max-width: 605px) {
-  .soft-skills {
+  .tech skills {
     display: inline;
     column-count: 0;
   }
@@ -776,7 +749,7 @@ footer p {
   }
 }
 @media screen and(max-width: 896px){
-  .soft-skills {
+  .tech skills {
     column-gap: 2px;
   }
 }
